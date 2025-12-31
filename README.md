@@ -6,14 +6,13 @@
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Sanity](https://img.shields.io/badge/Sanity-CMS-F03E2F?style=for-the-badge&logo=sanity)](https://www.sanity.io/)
-[![Tailwind CSS](https://img.shields.io/bad
-ge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
 **A modern, feature-rich e-commerce platform built with cutting-edge technologies.**
 
 *🔄 Actively under development — Contributions welcome!*
 
-[Live Demo](#) · [Report Bug](https://github.com/sajidmahamud835/easycom/issues) · [Request Feature](https://github.com/sajidmahamud835/easycom/issues)
+[Live Demo](https://easycom-d21bl8l1y-sajidmahamud835s-projects.vercel.app) · [Report Bug](https://github.com/sajidmahamud835/easycom/issues) · [Request Feature](https://github.com/sajidmahamud835/easycom/issues)
 
 </div>
 
