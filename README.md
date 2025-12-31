@@ -250,6 +250,16 @@ npm run typegen   # Generate Sanity types
 
 ---
 
+## 🤝 Related Projects
+
+Explore other components of the research portfolio:
+
+1.  **[BankSync](https://github.com/sajidmahamud835/banksync)** - Secure financial management platform, sharing security principles with EasyCom.
+2.  **[InspectHealth](https://github.com/sajidmahamud835/inspecthealth)** - Healthcare platform demonstrating similar high-compliance user data handling.
+3.  **[Shopping Cost Calculator](https://github.com/sajidmahamud835/shopping-cost-calculator-js)** - A fundamental utility for calculating shopping baskets, evolved into the full checkout logic here.
+
+---
+
 ## 📄 License
 
 This project is open for educational purposes. See the repository for more details.
