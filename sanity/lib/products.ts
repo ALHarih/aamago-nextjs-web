@@ -17,7 +17,8 @@ export const getProducts = async (): Promise<Product[]> => {
   try {
     const products = await writeClient.fetch(query);
     console.log("[getProducts] Fetched", products?.length || 0, "products");
-    return products || [];
+    // Force serialization to ensure plain objects are returned to client components
+    return JSON.parse(JSON.stringify(products || []));
   } catch (error) {
     console.error("[getProducts] Error fetching products:", error);
     return [];
