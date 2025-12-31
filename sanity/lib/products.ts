@@ -1,6 +1,7 @@
-﻿import { writeClient } from "./client";
+import { writeClient } from "./client";
+import { Product } from "../../sanity.types";
 
-export const getProducts = async () => {
+export const getProducts = async (): Promise<Product[]> => {
   const query = `*[_type == "product"] | order(_createdAt desc) {
     _id,
     _type,
