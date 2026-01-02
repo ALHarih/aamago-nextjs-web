@@ -24,7 +24,7 @@ const banners = [
     buttonLink: "/shop",
     image: "/slider-b2c.png",
     icon: ShoppingBag,
-    gradient: "from-purple-900/90 via-purple-800/80 to-teal-900/70"
+    gradient: "from-primary/90 via-primary/80 to-primary/70"
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const banners = [
     buttonLink: "/business",
     image: "/slider-b2b.png",
     icon: Building2,
-    gradient: "from-slate-900/90 via-blue-900/80 to-indigo-900/70"
+    gradient: "from-blue-900/90 via-primary/80 to-indigo-900/70"
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const banners = [
     buttonLink: "/deals",
     image: "/slider-deals.png",
     icon: Sparkles,
-    gradient: "from-orange-900/90 via-pink-900/80 to-red-900/70"
+    gradient: "from-rose-900/90 via-pink-900/80 to-red-900/70"
   },
 ];
 
@@ -69,13 +69,13 @@ const HomeBanner = () => {
   return (
     <div className="max-w-[1500px] mx-auto px-4 mt-4 flex gap-4 h-[350px] md:h-[450px]">
       {/* Sidebar / Departments - Hidden on mobile */}
-      <div className="hidden lg:flex flex-col w-[250px] bg-white shadow-lg rounded-2xl overflow-hidden flex-shrink-0 z-20 border border-gray-100">
-        <div className="bg-gradient-to-r from-indigo-600 to-purple-600 p-4 font-bold text-sm text-white">Shop by Department</div>
+      <div className="hidden lg:flex flex-col w-[250px] bg-card shadow-lg rounded-2xl overflow-hidden flex-shrink-0 z-20 border border-border">
+        <div className="bg-primary p-4 font-bold text-sm text-primary-foreground">Shop by Department</div>
         <div className="overflow-y-auto flex-1 py-2 custom-scrollbar">
           {categories.map((cat, i) => (
-            <Link href={"/category/" + cat.toLowerCase().replace(/ /g, '-')} key={i} className="flex justify-between items-center px-4 py-2.5 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-indigo-50 hover:to-purple-50 group transition-all border-l-2 border-transparent hover:border-indigo-500">
+            <Link href={"/category/" + cat.toLowerCase().replace(/ /g, '-')} key={i} className="flex justify-between items-center px-4 py-2.5 text-sm text-foreground hover:bg-primary/5 group transition-all border-l-2 border-transparent hover:border-primary">
               {cat}
-              <ChevronRight className="w-4 h-4 text-gray-400 group-hover:text-indigo-600 group-hover:translate-x-1 transition-all" />
+              <ChevronRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
             </Link>
           ))}
         </div>
@@ -103,8 +103,8 @@ const HomeBanner = () => {
                 <div className="absolute inset-0 flex items-center z-10">
                   <div className="px-8 md:px-12 max-w-2xl">
                     <div className="flex items-center gap-2 mb-3">
-                      <IconComponent className="w-5 h-5 text-teal-400" />
-                      <span className="text-teal-400 font-semibold text-sm uppercase tracking-wider">{banner.subtitle}</span>
+                      <IconComponent className="w-5 h-5 text-yellow-400" />
+                      <span className="text-yellow-400 font-semibold text-sm uppercase tracking-wider">{banner.subtitle}</span>
                     </div>
                     <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
                       {banner.title}
@@ -114,7 +114,7 @@ const HomeBanner = () => {
                     </p>
                     <Link
                       href={banner.buttonLink}
-                      className="inline-flex items-center gap-2 bg-gradient-to-r from-[#febd69] to-[#f3a847] text-black font-bold py-3 px-8 rounded-full hover:from-[#f3a847] hover:to-[#febd69] transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+                      className="inline-flex items-center gap-2 bg-yellow-400 text-black font-bold py-3 px-8 rounded-full hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
                     >
                       {banner.buttonText}
                       <ChevronRight className="w-4 h-4" />
