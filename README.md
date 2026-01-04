@@ -156,7 +156,7 @@ npm run typegen   # Generate Sanity types
 | Role | Contributor |
 |------|-------------|
 | **Original Author** | [@ALHarih](https://github.com/ALHarih) |
-| **Project Coordinator & Maintainer** | [@sajidmahamud835](https://github.com/sajidmahamud835) |
+| **Project Coordinator & Maintainer** | [@sajidmahamud835](https://github.com/sajidmahamud835) <br> [🌐 Portfolio](https://sajidmahamud835.github.io/) |
 
 ---
 
