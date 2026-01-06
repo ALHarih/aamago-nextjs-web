@@ -536,6 +536,30 @@ export const orderType = defineType({
         }),
       ],
     }),
+    // MLM Commission Fields
+    defineField({
+      name: "commissionsDistributed",
+      title: "Commissions Distributed",
+      type: "boolean",
+      initialValue: false,
+      readOnly: true, // System managed
+    }),
+    defineField({
+      name: "commissionDistributedAt",
+      title: "Commissions Distributed At",
+      type: "datetime",
+      readOnly: true,
+    }),
+    defineField({
+      name: "commissionDetails",
+      title: "Commission Details",
+      type: "object",
+      readOnly: true,
+      fields: [
+        defineField({ name: "strategyUsed", type: "string" }),
+        defineField({ name: "totalDistributed", type: "number" }),
+      ]
+    }),
   ],
   preview: {
     select: {
