@@ -146,7 +146,7 @@ npm run typegen   # Generate Sanity types
 |---------|-------------|
 | **[Aamago React Native](https://github.com/ALHarih/aamago-react-native)** | Mobile app companion |
 | **[Aamago Backend](https://github.com/ALHarih/aamago-backend)** | Shared API server |
-| **[EasyCom](https://github.com/sajidmahamud835/easycom)** | Original codebase (forked from) |
+| **[EasyCom](https://github.com/sajidmahamud835/easycom-nextjs-ecommerce-platform)** | Original codebase (forked from) |
 | **[InspectHealth](https://github.com/sajidmahamud835/inspecthealth)** | Similar auth patterns |
 
 ---
@@ -162,7 +162,7 @@ npm run typegen   # Generate Sanity types
 
 ## 📄 License
 
-Based on [EasyCom](https://github.com/sajidmahamud835/easycom). See repository for license details.
+Based on [EasyCom](https://github.com/sajidmahamud835/easycom-nextjs-ecommerce-platform). See repository for license details.
 
 ---
 
